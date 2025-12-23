@@ -1,0 +1,12 @@
+{
+  "name": "news-monitor-backend",
+  "version": "1.0.0",
+  "description": "Email alert backend for news monitoring",
+  "main": "api/send-alert.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
